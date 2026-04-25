@@ -109,3 +109,4 @@ requests.rest
 
 # split query file
 storage.js
+auth.bat
