@@ -1,7 +1,7 @@
 //----------------------------------------
 // Imports
 //----------------------------------------
-require('dotenv').config();
+if(!process.env.VERCEL_ENV) require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const app = express().use(cors()).use(express.json());
