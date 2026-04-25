@@ -14,7 +14,8 @@
     "scripts": {
         "start": "node authServer.js",
         "dev": "nodemon authServer.js",
-        "lint": "eslint . --ext .js"
+        "lint": "eslint . --ext .js",
+        "build": "npm i && node server.js"
     },
     "devDependencies": {
         "eslint": "^8.15.0",
